@@ -2,7 +2,7 @@
 # README for P1 Project - Flight Delay Prediction
 
 ## Project Description
-This project is part of our P1 project at AAU. The aim is to predict flight delays using machine learning models. We utilize a dataset from Kaggle, which includes flight data from 2018 to 2022.
+This project is part of our P1 project at AAU. The aim is to predict flight delays using machine learning models. We utilize a dataset from Kaggle, which includes flight data from 2018 to 2022. It only utelize a single CSV at a time, and produce .joblib files for every tested model, and test results files.
 
 ## Code Description
 The code consists of several parts:
@@ -42,9 +42,3 @@ python main.py
 - The `main()` function initializes and trains models on the specified data columns.
 - The results of the models' performance are saved in separate files for each model.
 - Data preprocessing and model training can take considerable time depending on your computer's performance.
-
-## Contact
-For questions or further information, please contact us via our project email.
-
----
-**Note:** This README is a template and can be adapted to the specific requirements and development stage of the project.
